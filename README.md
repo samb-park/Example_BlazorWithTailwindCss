@@ -43,7 +43,7 @@
 		},
 		variants: {},
 		plugins: [],
-	}
+		}
 
 6. Add below code on *.csproj
 
