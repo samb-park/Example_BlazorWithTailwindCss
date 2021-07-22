@@ -13,13 +13,20 @@
 			"scripts": {
 			"buildcss:dev": "postcss ./Styles/app.css -o ./wwwroot/css/site.css"
 			},	  
+		 {
+			"scripts": {
+			"buildcss:dev": "postcss ./Styles/app.css -o ./wwwroot/css/site.css"
+			},	  
 			"devDependencies": {
 			"cross-env": "^7.0.3",
 			"autoprefixer": "^10.3.1",
 			"postcss": "^8.3.5",
 			"postcss-cli": "^8.3.1",
 			"tailwindcss": "^2.2.4"
-		  }
+		   }
+
+ }
+
 
 		}
 
