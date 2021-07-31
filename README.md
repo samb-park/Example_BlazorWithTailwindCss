@@ -10,18 +10,17 @@
 3. Create a package.json on root and write below code.
   
 		 {
-			"scripts": {
-			"buildcss:dev": "postcss ./Styles/app.css -o ./wwwroot/css/site.css"
-			},	  
-			"devDependencies": {
-			"cross-env": "^7.0.3",
-			"autoprefixer": "^10.3.1",
-			"postcss": "^8.3.5",
-			"postcss-cli": "^8.3.1",
-			"tailwindcss": "^2.2.4"
-		   }
-
- 		}
+		  "scripts": {
+		    "buildcss:dev": "postcss ./Styles/app.css -o ./wwwroot/css/site.css"
+		  },
+		  "devDependencies": {
+		    "cross-env": "latest",
+		    "autoprefixer": "latest",
+		    "postcss": "latest",
+		    "postcss-cli": "latest",
+		    "tailwindcss": "latest"
+		  }
+		}
 
 
 4. Create a postcss.config.js on root and write below code.
