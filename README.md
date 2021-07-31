@@ -8,11 +8,7 @@
 		  @tailwind utilities;
 
 3. Create a package.json on root and write below code.
-
-		{
-			"scripts": {
-			"buildcss:dev": "postcss ./Styles/app.css -o ./wwwroot/css/site.css"
-			},	  
+  
 		 {
 			"scripts": {
 			"buildcss:dev": "postcss ./Styles/app.css -o ./wwwroot/css/site.css"
@@ -25,10 +21,8 @@
 			"tailwindcss": "^2.2.4"
 		   }
 
- }
+ 		}
 
-
-		}
 
 4. Create a postcss.config.js on root and write below code.
 		
